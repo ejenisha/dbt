@@ -1,0 +1,11 @@
+version: 2
+sources:
+   - name: training
+     database: PRAC
+     schema: TRAINING
+     tables:
+       - name: customers
+       - name: orders
+       - name: products
+       - name: markets
+       - name: shipping
